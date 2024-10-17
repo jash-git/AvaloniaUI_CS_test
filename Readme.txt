@@ -29,6 +29,14 @@ Avalonia 測試項目
 	★單一空殼專案編譯後產生檔案數量/複雜度/大小比MAUI 優	
 	★單一空殼專案啟動執行速度比MAUI 快
 	★LISTVIEW 渲染效能
+		單一/整批
+		改變顏色
+		圖片
 	★彈出視窗
 	★基本元件
+		switch
+		checkbox
+		comboBox
+		image
+		配置元件
 	★元件開發
