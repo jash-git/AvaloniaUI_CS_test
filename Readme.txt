@@ -17,12 +17,15 @@ Avalonia 開發環境建置[要在 Visual Studio 安裝 AvaloniaUI 開發環境]
 			Template Studio for Avalonia
 		
 Avalonia 測試項目
-	可以切換.NET版本 OK
-	全螢幕&隱藏工具列 OK
-	avaloniaui  開發的WINDOWS程式 如果要發行 目的端要有那些環境
-		
-	單一啟動執行速度
-	LISTVIEW 渲染效能
-	彈出視窗
-	基本元件
-	元件開發
+	★avaloniaui  開發的WINDOWS程式 如果要發行 目的端要有那些環境
+		01.操作系統：Windows 8 或更高版本。Windows 7 也可以，但需要安裝平台更新1。
+		02..NET 環境：.NET Core 3.1 或更高版本1。
+		03.Microsoft Visual C++ 2015 Redistributable：如果您使用 Skia 背景，需要安裝這個元件1。	
+	★可以切換.NET版本 OK
+	★可以編譯X64/X32版本 OK
+	★全螢幕&隱藏工具列 OK
+	★單一啟動執行速度
+	★LISTVIEW 渲染效能
+	★彈出視窗
+	★基本元件
+	★元件開發
