@@ -26,26 +26,34 @@ Avalonia 測試項目
 	★可以編譯X64/X32版本 OK
 	★全螢幕&隱藏工具列 OK
 	★單一空殼專案編譯速度比MAUI 快
-	★單一空殼專案編譯後產生檔案數量/複雜度/大小比MAUI 優(X64下 38檔案數/25M)
-	★單一空殼專案啟動執行速度比MAUI 快
+	★單一空殼專案編譯後產生檔案數量/複雜度/大小比MAUI 優 (X64下 38檔案數/25M)
+	★單一空殼專案啟動執行速度比MAUI 快 (明顯能區別)
 	★字型大小
+		◇字型大小設定方式
+			▼<TextBlock FontSize="20" FontFamily="Arial" FontWeight="Bold" FontStyle="Italic" Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+				裝置無關單位 (dius): dius 是一個相對單位，其大小會根據螢幕解析度和 DPI 而變化，確保文字在不同設備上顯示比例一致。
+				單位: 雖然 FontSize 接受 double 值，但實際上你通常會使用整數值。
+				樣式優先順序: 如果一個元素同時受到樣式和直接屬性設定的影響，直接屬性設定的優先級更高。			
+		◇解析度是否會直接影響字型大小
+			以下測試結果放在【解析度對文字顯示影響】資料夾中
 	★解析度調整影響
 	★動態變更配置UI版面調整大小
 	★LISTVIEW 渲染效能
-		單一/整批 更新
-		改變顏色
+		◇單一/整批 更新
+		◇改變顏色
 			游標在項目上
 			內容文字
-		圖片
+		◇圖片
 			顯示
 			切換
 	★彈出視窗
-		效能
-		多層疊加
+		◇效能
+		◇多層疊加
 	★基本元件
-		switch
-		checkbox
-		comboBox
-		image
-		配置元件
+		◇switch
+		◇checkbox
+		◇comboBox
+		◇image
+		◇配置元件
+		◇邊框元件
 	★元件開發
