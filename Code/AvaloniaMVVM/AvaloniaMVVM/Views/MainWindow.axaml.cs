@@ -7,6 +7,7 @@ using Avalonia.Media;
 using System;
 using System.Threading;
 using System.Timers;
+using System.Linq;
 
 
 namespace AvaloniaMVVM.Views
@@ -22,6 +23,9 @@ namespace AvaloniaMVVM.Views
             m_running = true;
             m_timerThread = new Thread(ThreadFunction);
             m_timerThread.Start();
+            animals.ItemsSource = new string[]
+    {"cat", "camel", "cow", "chameleon", "mouse", "lion", "zebra" }
+.OrderBy(x => x);
         }
         private void ThreadStop()
         {

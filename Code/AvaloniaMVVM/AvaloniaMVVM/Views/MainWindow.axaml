@@ -7,7 +7,6 @@
         x:Class="AvaloniaMVVM.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="avares://AvaloniaMVVM/Assets/avalonia-logo.ico">
-
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
@@ -19,5 +18,16 @@
 		<Button x:Name="BtnSet" Foreground="Green" BorderBrush="Red" Background="AliceBlue"  Content="Click Me!" FontSize="24" Click="BtnSet_Click" />
 		<Image Margin="20" Height="50" Width="50"
 	   Source="avares://AvaloniaMVVM/Assets/user.png"/>
+		<ListBox x:Name="animals"/>
+		<ListBox ItemsSource="{Binding Items}">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock Text="{Binding Name}" />
+						<CheckBox IsChecked="{Binding IsCompleted}" />
+					</StackPanel>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>		
 	</StackPanel>
 </Window>
