@@ -28,5 +28,8 @@
     <AvaloniaResource Update="Assets\avalonia-logo.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AvaloniaResource>
+    <AvaloniaResource Update="Assets\user.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AvaloniaResource>
   </ItemGroup>
 </Project>

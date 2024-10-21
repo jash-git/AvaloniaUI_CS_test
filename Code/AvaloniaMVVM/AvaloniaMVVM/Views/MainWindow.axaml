@@ -17,5 +17,7 @@
         <TextBlock x:Name="GreetingTextBlock" FontSize="30" FontFamily="Arial" FontWeight="Bold" FontStyle="Italic" Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 	    <TextBlock x:Name="ResolutionTextBlock" FontSize="24"/>
 		<Button x:Name="BtnSet" Foreground="Green" BorderBrush="Red" Background="AliceBlue"  Content="Click Me!" FontSize="24" Click="BtnSet_Click" />
+		<Image Margin="20" Height="50" Width="50"
+	   Source="avares://AvaloniaMVVM/Assets/user.png"/>
 	</StackPanel>
 </Window>

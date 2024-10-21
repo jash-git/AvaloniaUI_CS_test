@@ -42,8 +42,7 @@
               "RelativeToolTip": "AvaloniaMVVM\\App.axaml.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAIwBsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T03:20:33.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T03:20:33.288Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "AvaloniaMVVM\\ViewModels\\ViewModelBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T03:00:03.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T03:00:03.062Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "AvaloniaMVVM\\Views\\MainWindow.axaml.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAgwCcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T05:29:05.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T05:29:05.74Z"
             },
             {
               "$type": "Document",
@@ -77,8 +74,8 @@
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\devel\\Desktop\\AvaloniaMVVM\\AvaloniaMVVM\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "AvaloniaMVVM\\Views\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\devel\\Desktop\\AvaloniaMVVM\\AvaloniaMVVM\\Views\\MainWindow.axaml",
-              "RelativeToolTip": "AvaloniaMVVM\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\devel\\Desktop\\AvaloniaMVVM\\AvaloniaMVVM\\Views\\MainWindow.axaml*",
+              "RelativeToolTip": "AvaloniaMVVM\\Views\\MainWindow.axaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-17T04:55:35.818Z",
               "EditorCaption": ""
@@ -93,8 +90,7 @@
               "RelativeToolTip": "AvaloniaMVVM\\ViewModels\\MainWindowViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T04:55:32.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T04:55:32.259Z"
             }
           ]
         },
