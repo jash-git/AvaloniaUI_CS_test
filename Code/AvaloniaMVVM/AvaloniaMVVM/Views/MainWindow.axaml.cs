@@ -7,13 +7,20 @@ using Avalonia.Media;
 using System;
 using System.Threading;
 using System.Timers;
-using System.Linq;
+using AvaloniaMVVM.ViewModels;
+using Avalonia.Media.Imaging;
+using Avalonia.Platform;
+using static System.Net.Mime.MediaTypeNames;
 
 
 namespace AvaloniaMVVM.Views
 {
     public partial class MainWindow : Window
     {
+        //---
+        //ViewModels
+        public MainWindowViewModel m_MainWindowViewModel = null;
+        //---ViewModels
         //---
         //Thread
         private Thread m_timerThread;
@@ -23,9 +30,6 @@ namespace AvaloniaMVVM.Views
             m_running = true;
             m_timerThread = new Thread(ThreadFunction);
             m_timerThread.Start();
-            animals.ItemsSource = new string[]
-    {"cat", "camel", "cow", "chameleon", "mouse", "lion", "zebra" }
-.OrderBy(x => x);
         }
         private void ThreadStop()
         {
@@ -54,16 +58,23 @@ namespace AvaloniaMVVM.Views
             /*
              m_timer.Start();
              m_timer.Stop();
-            */
-            m_timer = new System.Timers.Timer(2000); // 每秒觸發一次
+            //*/
+
+            //*
+            m_timer = new System.Timers.Timer(1000); // 每秒觸發一次
             m_timer.Elapsed += OnTimedEvent;
             m_timer.AutoReset = true;
             m_timer.Start();
+            //*/
+
+
         }
         private void OnTimedEvent(object sender, ElapsedEventArgs e)
         {
+            m_MainWindowViewModel.Items.Insert(0,new Item(DateTime.Now.ToString("HH:mm:ss"), false));
             Dispatcher.UIThread.InvokeAsync(() =>
             {
+                listbox01.SelectedIndex = (0);
                 GreetingTextBlock.Text = DateTime.Now.ToString("HH:mm:ss");
             });
         }
@@ -71,11 +82,22 @@ namespace AvaloniaMVVM.Views
 
         public MainWindow()
         {
+            //---
+            //從APP
+            m_MainWindowViewModel = new MainWindowViewModel();
+            DataContext = m_MainWindowViewModel;
+            //---
             InitializeComponent();
             FullScreenMode();
             SpecifyScreen();
             ShowScreenResolution();
-            InitializeThread();//InitializeTimer();
+
+            //animals.ItemsSource = new string[]{"cat", "camel", "cow", "chameleon", "mouse", "lion", "zebra" }.OrderBy(x => x);
+
+            img01.PointerPressed += BtnSet_Click;
+
+
+            InitializeTimer();//InitializeThread();//
         }
         private void SpecifyScreen(int intIndx=1)
         {
@@ -124,11 +146,40 @@ namespace AvaloniaMVVM.Views
                 ResolutionTextBlock.Text = resolutionInfo.ToString();
             });
         }
-        private void BtnSet_Click(object sender, RoutedEventArgs e)
+        private async void BtnSet_Click(object sender, RoutedEventArgs e)
         {
             ResolutionTextBlock.FontWeight = FontWeight.Bold;
             BtnSet.Content = "FontWeight.Bold";
-            ThreadStop();//m_timer.Stop();
+            
+            //---
+            //程式切換圖片語法
+            var uri = new Uri("avares://AvaloniaMVVM/Assets/avalonia-logo.ico", UriKind.RelativeOrAbsolute);
+            using (var stream = AssetLoader.Open(uri))
+            {
+                img01.Source = new Bitmap(stream);
+            }
+            //---程式切換圖片語法
+
+            m_timer.Stop();//ThreadStop();//
+
+            //---
+            //簡易對話盒
+            var messageBox = new Window
+            {
+                Title = "Message Box",
+                Width = 300,
+                Height = 200,
+                Content = new StackPanel
+                {
+                    Children =
+                    {
+                        new TextBlock { Text = "Hello, this is a custom message box!", Margin = new Thickness(10) },
+                        new Button { Content = "OK", Margin = new Thickness(10) }
+                    }
+                }
+            };
+            await messageBox.ShowDialog(this);
+            //---簡易對話盒
         }
     }
 }

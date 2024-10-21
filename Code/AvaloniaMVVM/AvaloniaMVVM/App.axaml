@@ -3,9 +3,8 @@
              x:Class="AvaloniaMVVM.App"
              xmlns:local="using:AvaloniaMVVM"
              RequestedThemeVariant="Default">
-             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
-
-    <Application.DataTemplates>
+             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->	
+	<Application.DataTemplates>
         <local:ViewLocator/>
     </Application.DataTemplates>
   

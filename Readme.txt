@@ -43,24 +43,20 @@ Avalonia 測試項目
 	★Timer/Thread
 		◇System.Timers 可以
 		◇System.Threading 可以
-	★LISTVIEW 渲染效能
-		◇單一/整批 更新
-		◇改變顏色
-			游標在項目上
-			內容文字
-		◇圖片
-			顯示
-			切換
 	★彈出視窗
-		◇效能
-		◇多層疊加
+		◇多層疊加 [可以]
 	★基本元件 [https://docs.avaloniaui.net/zh-Hans/docs/basics/user-interface/controls/builtin-controls]
 			  [https://reference.avaloniaui.net/api/Avalonia.Controls/]
 		◇ListBox 
-			https://docs.avaloniaui.net/zh-Hans/docs/reference/controls/listbox
-		◇switch
+			https://docs.avaloniaui.net/zh-Hans/docs/reference/controls/listbox			
+			無法改變選擇背景顏色
+		◇ToggleSwitch
 		◇checkbox
+			https://docs.avaloniaui.net/zh-Hans/docs/reference/controls/checkbox
+			無法改變選取框的大小
 		◇comboBox
+		◇ScrollViewer+Border
+			https://docs.avaloniaui.net/docs/reference/controls/scrollviewer
 		◇Button
 			https://docs.avaloniaui.net/zh-Hans/docs/reference/controls/buttons/button
 		◇圖片元件

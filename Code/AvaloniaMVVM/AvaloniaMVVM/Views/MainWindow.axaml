@@ -6,7 +6,7 @@
         mc:Ignorable="d" d:DesignWidth="100%" d:DesignHeight="100%"
         x:Class="AvaloniaMVVM.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
-        Icon="avares://AvaloniaMVVM/Assets/avalonia-logo.ico">
+        Icon="avares://AvaloniaMVVM/Assets/avalonia-logo.ico">	
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
@@ -16,18 +16,21 @@
         <TextBlock x:Name="GreetingTextBlock" FontSize="30" FontFamily="Arial" FontWeight="Bold" FontStyle="Italic" Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 	    <TextBlock x:Name="ResolutionTextBlock" FontSize="24"/>
 		<Button x:Name="BtnSet" Foreground="Green" BorderBrush="Red" Background="AliceBlue"  Content="Click Me!" FontSize="24" Click="BtnSet_Click" />
-		<Image Margin="20" Height="50" Width="50"
-	   Source="avares://AvaloniaMVVM/Assets/user.png"/>
-		<ListBox x:Name="animals"/>
-		<ListBox ItemsSource="{Binding Items}">
-			<ListBox.ItemTemplate>
-				<DataTemplate>
-					<StackPanel Orientation="Horizontal">
-						<TextBlock Text="{Binding Name}" />
-						<CheckBox IsChecked="{Binding IsCompleted}" />
-					</StackPanel>
-				</DataTemplate>
-			</ListBox.ItemTemplate>
-		</ListBox>		
+		<Image x:Name="img01" Margin="20" Height="50" Width="50" Source="avares://AvaloniaMVVM/Assets/user.png"/>
+		<!-- <ListBox x:Name="animals"/> -->
+		<Border Background="AliceBlue" Width="300" Height="400">
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ListBox x:Name="listbox01" ItemsSource="{Binding Items}" Background="White">
+					<ListBox.ItemTemplate>
+						<DataTemplate>
+							<StackPanel Orientation="Horizontal" Spacing="10">
+								<TextBlock Text="{Binding Name}" VerticalAlignment="Center"/>
+								<CheckBox IsChecked="{Binding IsCompleted}" />
+							</StackPanel>
+						</DataTemplate>
+					</ListBox.ItemTemplate>
+				</ListBox>
+			</ScrollViewer>
+		</Border>
 	</StackPanel>
 </Window>

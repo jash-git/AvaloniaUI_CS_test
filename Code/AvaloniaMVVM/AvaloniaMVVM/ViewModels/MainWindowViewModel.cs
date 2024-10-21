@@ -6,6 +6,11 @@ namespace AvaloniaMVVM.ViewModels
     {
         public string Name { get; set; }
         public bool IsCompleted { get; set; }
+        public Item(string strName,bool blnCheck) 
+        {
+            Name = strName;
+            IsCompleted = blnCheck;
+        }
     }
 
     public partial class MainWindowViewModel : ViewModelBase
@@ -16,9 +21,8 @@ namespace AvaloniaMVVM.ViewModels
         {
             Items = new ObservableCollection<Item>
             {
-                new Item { Name = "任務一", IsCompleted = false },
-                new Item { Name = "任務二", IsCompleted = true },
-                // ... 其他項目
+                new Item("項目01",false),
+                new Item("項目02",true)
             };
         }
 #pragma warning disable CA1822 // Mark members as static
