@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\devel\\Desktop\\AvaloniaMVVM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{086DBAA5-663D-403B-B8A0-F2F16E6F4900}|AvaloniaMVVM\\AvaloniaMVVM.csproj|c:\\users\\devel\\desktop\\avaloniamvvm\\avaloniamvvm\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{086DBAA5-663D-403B-B8A0-F2F16E6F4900}|AvaloniaMVVM\\AvaloniaMVVM.csproj|solutionrelative:avaloniamvvm\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{086DBAA5-663D-403B-B8A0-F2F16E6F4900}|AvaloniaMVVM\\AvaloniaMVVM.csproj|c:\\users\\devel\\desktop\\avaloniamvvm\\avaloniamvvm\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{086DBAA5-663D-403B-B8A0-F2F16E6F4900}|AvaloniaMVVM\\AvaloniaMVVM.csproj|solutionrelative:avaloniamvvm\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{086DBAA5-663D-403B-B8A0-F2F16E6F4900}|AvaloniaMVVM\\AvaloniaMVVM.csproj|c:\\users\\devel\\desktop\\avaloniamvvm\\avaloniamvvm\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{086DBAA5-663D-403B-B8A0-F2F16E6F4900}|AvaloniaMVVM\\AvaloniaMVVM.csproj|solutionrelative:avaloniamvvm\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{086DBAA5-663D-403B-B8A0-F2F16E6F4900}|AvaloniaMVVM\\AvaloniaMVVM.csproj|c:\\users\\devel\\desktop\\avaloniamvvm\\avaloniamvvm\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 3376,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -60,20 +60,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\devel\\Desktop\\AvaloniaMVVM\\AvaloniaMVVM\\Views\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "AvaloniaMVVM\\Views\\MainWindow.axaml.cs",
               "ToolTip": "C:\\Users\\devel\\Desktop\\AvaloniaMVVM\\AvaloniaMVVM\\Views\\MainWindow.axaml.cs",
               "RelativeToolTip": "AvaloniaMVVM\\Views\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAIwEkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T05:29:05.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\devel\\Desktop\\AvaloniaMVVM\\AvaloniaMVVM\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "AvaloniaMVVM\\Views\\MainWindow.axaml",
@@ -105,10 +105,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
