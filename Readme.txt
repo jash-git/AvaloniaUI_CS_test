@@ -51,10 +51,10 @@ Avalonia 測試項目
 			https://docs.avaloniaui.net/zh-Hans/docs/reference/controls/listbox			
 			無法改變選擇背景顏色
 		◇ToggleSwitch
-		◇checkbox
+		◇ComboBox		
+		◇Checkbox
 			https://docs.avaloniaui.net/zh-Hans/docs/reference/controls/checkbox
 			無法改變選取框的大小
-		◇comboBox
 		◇ScrollViewer+Border
 			https://docs.avaloniaui.net/docs/reference/controls/scrollviewer
 		◇Button
