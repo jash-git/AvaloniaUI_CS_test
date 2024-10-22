@@ -81,6 +81,7 @@ Avalonia 測試項目
 	★動態變更配置UI版面調整大小
 
 ====================
+簡體原廠教學文件: https://docs.avaloniaui.net/zh-Hans/docs/welcome
 繁體一系列教學(就是要來點 A.I. 的 TopAOAIConnector App 系列):
 	https://ithelp.ithome.com.tw/users/20126714/ironman/7900
 	https://github.com/JamestsaiTW/TopAOAIConnector	
