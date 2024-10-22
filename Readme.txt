@@ -78,4 +78,9 @@ Avalonia 測試項目
 	★元件開發
 		◇圖片按鈕
 			
-	★動態變更配置UI版面調整大小	
+	★動態變更配置UI版面調整大小
+
+====================
+繁體一系列教學(就是要來點 A.I. 的 TopAOAIConnector App 系列):
+	https://ithelp.ithome.com.tw/users/20126714/ironman/7900
+	https://github.com/JamestsaiTW/TopAOAIConnector	
