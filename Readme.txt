@@ -44,17 +44,17 @@ Avalonia 測試項目
 		◇System.Timers 可以
 		◇System.Threading 可以
 	★彈出視窗
-		◇多層疊加 [可以]
+		◇多層疊加 可以
 	★基本元件 [https://docs.avaloniaui.net/zh-Hans/docs/basics/user-interface/controls/builtin-controls]
 			  [https://reference.avaloniaui.net/api/Avalonia.Controls/]
 		◇ListBox 
 			https://docs.avaloniaui.net/zh-Hans/docs/reference/controls/listbox			
-			無法改變選擇背景顏色
+			無法改變 選擇背景顏色
 		◇ToggleSwitch
 		◇ComboBox		
 		◇Checkbox
 			https://docs.avaloniaui.net/zh-Hans/docs/reference/controls/checkbox
-			無法改變選取框的大小
+			無法改變 選取框的大小
 		◇ScrollViewer+Border
 			https://docs.avaloniaui.net/docs/reference/controls/scrollviewer
 		◇Button
