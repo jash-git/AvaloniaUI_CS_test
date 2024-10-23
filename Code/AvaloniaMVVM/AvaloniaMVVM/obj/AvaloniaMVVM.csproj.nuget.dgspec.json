@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devel\\Desktop\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj": {}
+    "C:\\Users\\devel\\Desktop\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devel\\Desktop\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj": {
+    "C:\\Users\\devel\\Desktop\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devel\\Desktop\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj",
+        "projectUniqueName": "C:\\Users\\devel\\Desktop\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj",
         "projectName": "AvaloniaMVVM",
-        "projectPath": "C:\\Users\\devel\\Desktop\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj",
+        "projectPath": "C:\\Users\\devel\\Desktop\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj",
         "packagesPath": "C:\\Users\\devel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devel\\Desktop\\AvaloniaMVVM\\AvaloniaMVVM\\obj\\",
+        "outputPath": "C:\\Users\\devel\\Desktop\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

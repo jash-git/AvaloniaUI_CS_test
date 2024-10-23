@@ -16,12 +16,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AvaloniaMVVM
-build_property.ProjectDir = C:\Users\devel\Desktop\AvaloniaMVVM\AvaloniaMVVM\
+build_property.ProjectDir = C:\Users\devel\Desktop\GITHUB\AvaloniaUI_CS_test\Code\AvaloniaMVVM\AvaloniaMVVM\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/devel/Desktop/AvaloniaMVVM/AvaloniaMVVM/App.axaml]
+[C:/Users/devel/Desktop/GITHUB/AvaloniaUI_CS_test/Code/AvaloniaMVVM/AvaloniaMVVM/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/devel/Desktop/AvaloniaMVVM/AvaloniaMVVM/Views/MainWindow.axaml]
+[C:/Users/devel/Desktop/GITHUB/AvaloniaUI_CS_test/Code/AvaloniaMVVM/AvaloniaMVVM/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
