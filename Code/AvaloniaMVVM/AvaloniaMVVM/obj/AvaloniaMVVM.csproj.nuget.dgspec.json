@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devel\\Desktop\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj": {}
+    "C:\\Users\\jashv\\OneDrive\\桌面\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devel\\Desktop\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj": {
+    "C:\\Users\\jashv\\OneDrive\\桌面\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devel\\Desktop\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj",
+        "projectUniqueName": "C:\\Users\\jashv\\OneDrive\\桌面\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj",
         "projectName": "AvaloniaMVVM",
-        "projectPath": "C:\\Users\\devel\\Desktop\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj",
-        "packagesPath": "C:\\Users\\devel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devel\\Desktop\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\obj\\",
+        "projectPath": "C:\\Users\\jashv\\OneDrive\\桌面\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\AvaloniaMVVM.csproj",
+        "packagesPath": "C:\\Users\\jashv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jashv\\OneDrive\\桌面\\GITHUB\\AvaloniaUI_CS_test\\Code\\AvaloniaMVVM\\AvaloniaMVVM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\devel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jashv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

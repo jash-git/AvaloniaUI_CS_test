@@ -52,6 +52,7 @@ namespace AvaloniaMVVM.Views
 
         //---
         //Timer
+        private bool m_blnMode = true;
         private System.Timers.Timer m_timer;
         private void InitializeTimer()
         {
@@ -71,7 +72,14 @@ namespace AvaloniaMVVM.Views
         }
         private void OnTimedEvent(object sender, ElapsedEventArgs e)
         {
-            m_MainWindowViewModel.Items.Insert(0,new Item(DateTime.Now.ToString("HH:mm:ss"), false));
+            if(m_blnMode)
+            {
+                m_MainWindowViewModel.Items.Insert(0, new Item(DateTime.Now.ToString("HH:mm:ss"), false));
+            }
+            else
+            {
+                m_MainWindowViewModel.Items.RemoveAt(0);
+            }
             Dispatcher.UIThread.InvokeAsync(() =>
             {
                 listbox01.SelectedIndex = (0);
@@ -160,7 +168,7 @@ namespace AvaloniaMVVM.Views
             }
             //---程式切換圖片語法
 
-            m_timer.Stop();//ThreadStop();//
+            m_blnMode = false;//m_timer.Stop();//ThreadStop();//
 
             //---
             //簡易對話盒
