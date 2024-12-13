@@ -11,6 +11,7 @@ using AvaloniaMVVM.ViewModels;
 using Avalonia.Media.Imaging;
 using Avalonia.Platform;
 using static System.Net.Mime.MediaTypeNames;
+using Avalonia.Controls.Primitives;
 
 
 namespace AvaloniaMVVM.Views
@@ -78,7 +79,10 @@ namespace AvaloniaMVVM.Views
             }
             else
             {
-                m_MainWindowViewModel.Items.RemoveAt(0);
+                if(m_MainWindowViewModel.Items.Count>0)
+                {
+                    m_MainWindowViewModel.Items.RemoveAt(0);
+                }            
             }
             Dispatcher.UIThread.InvokeAsync(() =>
             {
@@ -188,6 +192,12 @@ namespace AvaloniaMVVM.Views
             };
             await messageBox.ShowDialog(this);
             //---Â²©ö¹ï¸Ü²°
+
+            MyPopup.IsOpen = true;
+        }
+        private void ClosePopup_Click(object sender, RoutedEventArgs e)
+        {
+            MyPopup.IsOpen = false;
         }
     }
 }
