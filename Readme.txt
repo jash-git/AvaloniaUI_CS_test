@@ -90,3 +90,13 @@ https://github.com/AvaloniaUI/AvaloniaUI.QuickGuides
 繁體一系列教學(就是要來點 A.I. 的 TopAOAIConnector App 系列):
 	https://ithelp.ithome.com.tw/users/20126714/ironman/7900
 	https://github.com/JamestsaiTW/TopAOAIConnector	
+	
+	
+====================
+avalonia 和Visual Studio 一直更新 會出現 Infinite layout loop detected 錯誤，此時發現 avalonia 更新架構了
+	AI資料:	https://chatgpt.com/share/691c37b5-5e14-8009-80f0-cadf4001ae1b
+			https://chatgpt.com/share/691c37d2-8034-8009-9e47-3e197bb519b8
+			https://chatgpt.com/share/691c37f9-8c84-8009-89f6-a3fe7202465e
+			https://chatgpt.com/share/691c3810-705c-8009-94d2-bdd5cc69e32a
+	測試範例:
+		Avalonia_Infinite-ayout-loop-detected_2026 [Avalonia11+.net10]

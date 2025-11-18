@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <Var name="RegenerateDebugInfo" value="false" />
+  <Var name="MarkedOnly" value="false" />
+  <Var name="RenameProperties" value="true" />
+  <Var name="RenameEvents" value="true" />
+  <Var name="RenameFields" value="true" />
+  <Var name="KeepPublicApi" value="true" />
+  <Var name="HidePrivateApi" value="true" />
+  <Var name="ReuseNames" value="false" />
+  <Var name="HideStrings" value="true" />
+  <Var name="OptimizeMethods" value="true" />
+  <Var name="SuppressIldasm" value="true" />
+  <Var name="AnalyzeXaml" value="true" />
+  <Var name="UseUnicodeNames" value="false" />
+  <Var name="UseKoreanNames" value="true" />
+  <Module file="$(InPath)\Avalonia_Infinite-ayout-loop-detected.Desktop.dll">
+    <SkipType name="*AnonymousType*" skipProperties="true" skipMethods="true" skipFields="true" skipEvents="true" skipStringHiding="true" />
+  </Module>
+  <AssemblySearchPath path="..\Avalonia_Infinite-ayout-loop-detected\bin\x86\Debug\net10.0\" />
+  <AssemblySearchPath path="C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.0\ref\net10.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.controls.colorpicker\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.desktop\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.diagnostics\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.fonts.inter\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.freedesktop\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.native\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.reactiveui\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.remote.protocol\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.skia\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.themes.fluent\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.themes.simple\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.win32\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia.x11\11.3.8\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\avalonia\11.3.8\ref\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\dynamicdata\8.4.1\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\harfbuzzsharp\8.3.1.1\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\microcom.runtime\0.11.0\lib\net5.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\reactiveui\20.1.1\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\skiasharp\2.88.9\lib\net6.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\splat\15.1.1\lib\net8.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\system.reactive\6.0.1\lib\net6.0\" />
+  <AssemblySearchPath path="C:\Users\jashv\.nuget\packages\tmds.dbus.protocol\0.21.2\lib\net8.0\" />
+</Include>

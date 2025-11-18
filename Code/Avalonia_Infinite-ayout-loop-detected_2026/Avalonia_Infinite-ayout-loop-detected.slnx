@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Avalonia_Infinite-ayout-loop-detected.Desktop/Avalonia_Infinite-ayout-loop-detected.Desktop.csproj">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="Avalonia_Infinite-ayout-loop-detected/Avalonia_Infinite-ayout-loop-detected.csproj">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+</Solution>
