@@ -82,7 +82,7 @@ public partial class MainView : UserControl
         Dispatcher.UIThread.InvokeAsync(() =>
         {//InvokeAsync 保證在事件循環中的順序執行
             listbox01.SelectedIndex = (0);
-            GreetingTextBlock.Text = DateTime.Now.ToString("HH:mm:ss");
+            GreetingTextBlock.Text = FileName.GetAppDataPath() + "\t"+DateTime.Now.ToString("HH:mm:ss");
         });
     }
     //---Timer

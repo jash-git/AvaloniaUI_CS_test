@@ -9,7 +9,7 @@ https://docs.avaloniaui.net/zh-Hans/docs/get-started/ [簡中]
 
 Avalonia 開發環境建置[要在 Visual Studio 安裝 AvaloniaUI 開發環境]
 	01.安裝 Avalonia Templates： 開啟 Visual Studio 的終端機，並執行以下命令：
-		dotnet new -i Avalonia.Templates
+		dotnet new install Avalonia.Templates [同時也可以更新功能]
 	02.安裝 Avalonia for Visual Studio 擴展
 		Visual Studio工具列的「延伸模組」-> 「管理延伸模組」 -> 搜尋列輸入Avalonia並安裝下列模組
 			Avalonia for Visual Studio
