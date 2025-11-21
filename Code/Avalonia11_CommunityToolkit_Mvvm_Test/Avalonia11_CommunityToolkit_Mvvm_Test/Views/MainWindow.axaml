@@ -1,0 +1,19 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="using:Avalonia11_CommunityToolkit_Mvvm_Test.ViewModels"
+        xmlns:views="clr-namespace:Avalonia11_CommunityToolkit_Mvvm_Test.Views"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Avalonia11_CommunityToolkit_Mvvm_Test.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Avalonia11_CommunityToolkit_Mvvm_Test"
+        x:DataType="vm:MainWindowViewModels">
+    <Grid ColumnDefinitions="1*,1*">
+        <!-- 左側 UserControl -->
+        <views:LeftView />
+
+        <!-- 右側 UserControl -->
+        <views:RightView Grid.Column="1" />
+    </Grid>
+</Window>

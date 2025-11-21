@@ -100,3 +100,8 @@ avalonia 和Visual Studio 一直更新 會出現 Infinite layout loop detected �
 			https://chatgpt.com/share/691c3810-705c-8009-94d2-bdd5cc69e32a
 	測試範例:
 		Avalonia_Infinite-ayout-loop-detected_2026 [Avalonia11+.net10]
+
+====================		
+Avalonia11 專案 一個Window 包兩個View 共用同一個ViewModels 使用 CommunityToolkit.Mvvm.Messaging 實作一個事件函數驅動 兩個View顯示變化
+	測試範例:
+		Avalonia11_CommunityToolkit_Mvvm_Test
